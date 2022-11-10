@@ -1,0 +1,122 @@
+/* OTHER */
+.allcards {
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 155px;
+}
+
+.redtext {
+    color: rgb(231,74,63);
+}
+
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* FIRST CARD */
+#firstcard {
+    box-shadow: 1px 1px 5px;
+    width: 490px;
+    height: 400px;
+    text-align: center;
+}
+
+#firstcard h2 {
+    font-size: 30px;
+    margin: 30px 0 0 0;
+}
+
+#firstcard h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+#firstphoto {
+    height: 280px;
+    background: url('./photo1.png');
+    background-size: 490px 280px;
+}
+
+
+/* SECOND CARD */
+#secondcard {
+    box-shadow: 1px 1px 5px;
+    width: 490px;
+    height: 650px;
+    margin-left: 55px;
+    text-align: center;
+}
+
+#secondtphoto {
+    height: 280px;
+    background: url('./photo2.png');
+    background-size: 490px 280px;
+}
+
+#secondcard h2 {
+    font-size: 30px;
+    margin: 30px 0 0 0;
+}
+
+#secondcard h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.text2 {
+    padding: 0 20px;
+    text-align: left;
+}
+
+#secondcard p {
+    font-size: 25px;
+}
+
+.button {
+    background-color: rgb(231,76,60);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 0 20px;
+    margin-top: 0;
+    margin-top: 40px;
+    cursor: pointer;
+    display: table;
+  }
+
+/* THIRD CARD */
+
+#thirdcard {
+    box-shadow: 1px 1px 5px;
+    width: 490px;
+    height: 400px;
+    margin-left: 55px;    
+    text-align: center;
+}
+
+#thirdtphoto {
+    height: 280px;
+    background: url('./photo3.png');
+    background-size: 490px 280px;
+
+}
+
+#thirdcard h2 {
+    font-size: 30px;
+    margin: 30px 0 0 0;
+}
+
+#thirdcard h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+    margin: 0;
+}
